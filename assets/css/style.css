@@ -1,69 +1,22 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-.main-nav
-{
-float: middle;
-list-style: none;
-margin-top: 70px;
-}
-.main-nav li
-{ 
-    display: inline-block;
-}
-.main-nav li a
-{
-    /* color:black; */
-    text-decoration: none;
-    padding: 25px;
-    font-family: sans-serif;
-    font-size:50px;
-
-}
-.main-nav li a.last-tag {
-    color: green;
-}
-.main-nav li.active a
-{
-    font-weight: bold;
-    color: red
-}
-.main-nav li a:hover
-{
-    font-weight: bold;
-  color: blue; 
-}
-.logo img 
-{
-    width: 250px;
-    height: auto;
-    float: left;
-}
-body 
-{
-    background-color: #D6E0CD;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.hero
-{
-    position: absolute;
-    width: 1000px;
-    margin-left: 0;
-    margin-top: 0;
-    background-color: orange;
-}
-h1
-{
-    color:#006FAD;
-    text-transform: uppercase;
-    font-size:40px;
-    text-align: center;
-    margin-top: 500px;
-    float: middle;
+.fruit-image {
+    background-image: url("../images/fruit.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.red-text {
-    color: pink;
+.panda-image {
+    height: 400px;
+    background: url("../images/panda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 30%; 
+    background-size: cover;
+}
+
+.cupcake-image {
+    height: 500px;
+    background: url("../images/cupcake.jpg");
+    background-repeat: no-repeat;
 }
