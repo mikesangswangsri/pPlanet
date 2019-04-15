@@ -1,22 +1,73 @@
-.fruit-image {
-    background-image: url("../images/fruit.jpg");
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main-nav
+{
+float: middle;
+list-style: none;
+margin-top: 150px;
+}
+.main-nav li
+{ 
+    display: inline-block;
+}
+.main-nav li a
+{
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size:20px;
+    font-weight: bold;
+    margin: 10px
 }
 
-.panda-image {
-    height: 400px;
-    background: url("../images/panda.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 30%; 
-    background-size: cover;
+.main-nav li.active a
+{
+    font-weight: bold;
+    color: black
+}
+.main-nav li a:hover
+{
+    font-weight:bold;
+    color: white; 
+}
+.logo img 
+{
+    width: 250px;
+    height: auto;
+    float: left;
+}
+body 
+{
+    background-color: #D6E0CD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero
+{
+    position: absolute;
+    width: 1000px;
+    margin-left: 0;
+    margin-top: 0;
+}
+h1
+{
+    color:#006FAD;
+    text-transform: uppercase;
+    font-size:40px;
+    text-align: center;
+    margin-top: 500px;
+    float: middle;
 }
 
-.cupcake-image {
-    height: 500px;
-    background: url("../images/cupcake.jpg");
-    background-repeat: no-repeat;
+.red-text {
+    color: black;
+}
+
+.last-tag 
+{
+    color: #006FAD;
+    font-size: 35px;
 }
