@@ -1,9 +1,10 @@
-.custom-container{
-        margin: 25px 25px;
+.custom-container {
+    margin: 25px 25px;
 }
 
+
 h1 {
-    color:#648A41;
+    color: #648A41;
     text-align: left;
     font-size: 45px;
     margin: 25px 50px;
@@ -18,7 +19,7 @@ h2 {
     line-height: 10px;
 }
 
-h3{
+h3 {
     text-align: left;
     font-size: 20px;
     margin: 25px 50px;
@@ -27,7 +28,7 @@ h3{
 
 }
 
-h4{
+h4 {
     text-align: left;
     font-size: 20px;
     margin: 25px 50px;
@@ -36,7 +37,7 @@ h4{
 }
 
 .custom-card-style {
-   background-color:#006FAD;
+    background-color: #006FAD;
 }
 
 .text-center {
@@ -50,5 +51,58 @@ a {
     -webkit-text-decoration-skip: objects;
     font-size: 17px;
     font-family: Helvetica;
+}
+
+
+/* search button */
+form {
+    float: right;
+    margin: 100px;
+    position: relative;
+    top: -55px;
+}
+
+input {
+    float: right;
+}
+
+button {
+    float: right;
+}
+
+/* icons */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.s-m{
+    position: absolute;
+    margin: 100px 300px;
+    line-height: 100px;
+    transform: translate(-50%,-50%);
+}
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.s-m a:hover{
+    background:#648A41;
+}
+.s-m a i{
+    transition: 0.4s all;
+}
+.s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+
 }
 
