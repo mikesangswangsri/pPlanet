@@ -48,10 +48,7 @@ h4 {
     text-decoration: none;
 }
 .s-m{
-    position: absolute;
-    margin: 1250px 300px;
-    line-height: 100px;
-    transform: translate(-50%,-50%);
+   margin: 20px 0 20px 25px;
 }
 .s-m a{
     display: inline-flex;
@@ -73,6 +70,6 @@ h4 {
     transition: 0.4s all;
 }
 .s-m a:hover > i{
-    transform: scale(1.6) rotate(25deg);
+    transform: scale(1.6);
 
 }

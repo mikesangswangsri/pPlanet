@@ -50,7 +50,7 @@ button {
     transition: 0.4s all;
 }
 .s-m a:hover > i{
-    transform: scale(1.6) rotate(25deg);
+    transform: scale(1.6);
 
 }
 
