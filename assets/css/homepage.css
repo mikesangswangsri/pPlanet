@@ -1,11 +1,9 @@
 .custom-contanier {
     margin: 20px 30px 20px 30px;
 }
-
 /* search button */
 form {
-    float: right;
-    margin: 100px;
+    float: right;;
     position: relative;
     top: -55px;
 }
@@ -18,18 +16,17 @@ button {
     float: right;
 }
 
-/* icons */ */
+/* icon */
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
+
 .s-m{
-    position: absolute;
-    margin: 100px 300px;
-    line-height: 100px;
-    transform: translate(-50%,-50%);
+    margin: 20px 0 20px 230px;
 }
+
 .s-m a{
     display: inline-flex;
     width: 40px;
@@ -43,6 +40,7 @@ button {
     transition: 0.4s;
     font-size: 24px;
 }
+
 .s-m a:hover{
     background:#648A41;
 }
@@ -51,6 +49,51 @@ button {
 }
 .s-m a:hover > i{
     transform: scale(1.6);
-
 }
+
+/* footer */
+
+h5{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    line-height: 50px;
+    color: #648A41;
+}
+
+/* Style the form element with a border around it */
+form {
+    border: 5px;
+    margin: -10px 0px 0px 0px;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: -50px;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
 
