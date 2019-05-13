@@ -1,7 +1,6 @@
 /* search button */
-form {
-    float: right;
-    margin: 100px;
+form.contact-form {
+    float: right;;
     position: relative;
     top: -55px;
 }

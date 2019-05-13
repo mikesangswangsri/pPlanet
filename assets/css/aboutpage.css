@@ -28,8 +28,8 @@ h2 {
     background-color: #006FAD;
 }
 
-.text-center {
-    color: white
+.card-text {
+    color:white;
 }
 
 a {
@@ -43,9 +43,8 @@ a {
 
 
 /* search button */
-form {
-    float: right;
-    margin: 100px;
+form.contact-form {
+    float: right;;
     position: relative;
     top: -55px;
 }
